@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InvitationInputActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgg5"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingVertical="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/title"
+                android:textAllCaps="true"
+
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_inv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="Event Name"
+                android:background="@drawable/roundcorner"
+                android:gravity="center"
+                android:hint="@string/hint_inv_title"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#BCB6B6"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/subtitle"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_inv_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="Event Name"
+                android:background="@drawable/roundcorner"
+                android:gravity="center"
+                android:hint="@string/shreya_s_14th_birthday"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#BCB6B6"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/location"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_inv_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="address"
+                android:background="@drawable/roundcorner"
+                android:gravity="center"
+                android:hint="@string/sersa_stadium_kharagpur"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="#BCB6B6"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/day"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_inv_day"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="address"
+                    android:background="@drawable/roundcorner"
+                    android:gravity="center"
+                    android:hint="@string/sunday"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#BCB6B6"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/date"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_inv_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:background="@drawable/roundcorner"
+                    android:gravity="center"
+                    android:hint="@string/_30_10_2022"
+                    android:inputType="date"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#BCB6B6"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/time"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/et_inv_time"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="5:30pm"
+                    android:background="@drawable/roundcorner"
+                    android:gravity="center"
+                    android:hint="@string/_05_30"
+                    android:inputType="time"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#BCB6B6"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_inv_ampm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:autofillHints="PM"
+                    android:background="@drawable/roundcorner"
+                    android:gravity="center"
+                    android:hint="@string/pm"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#BCB6B6"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:background="@drawable/rbbutton"
+            android:onClick="sendMessage"
+            android:padding="10dp"
+            android:text="@string/create"
+            android:textColor="@color/black"
+
+            tools:ignore="UsingOnClickInXml">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
